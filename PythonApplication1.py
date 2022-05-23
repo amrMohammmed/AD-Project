@@ -10,7 +10,7 @@ from PIL import Image
 from streamlit_option_menu import option_menu
 import webbrowser
 import sys
-
+from streamlit.components.v1 import html
 
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import cross_val_score
@@ -39,9 +39,24 @@ st.markdown(
 )
 
 
-link1='https://adni.loni.usc.edu/'
-link2='https://medlineplus.gov/genetics/condition/alzheimer-disease/'
-link3='https://github.com/amrMohammmed/AD-Project.git'
+# Define your javascript
+my_js1 = """
+window.open('https://adni.loni.usc.edu/', '_blank');
+"""
+my_js2 = """
+window.open('https://medlineplus.gov/genetics/condition/alzheimer-disease/', '_blank');
+"""
+my_js3 = """
+window.open('https://github.com/amrMohammmed/AD-Project.git', '_blank');
+"""
+
+# Wrapt the javascript as html code
+my_html1 = f"<script>{my_js1}</script>"
+my_html2 = f"<script>{my_js2}</script>"
+my_html3 = f"<script>{my_js3}</script>"
+
+# Execute your app
+
 
 with st.sidebar:
     st.title("AD Project")
@@ -49,13 +64,14 @@ with st.sidebar:
      menu_icon="cast", default_index=0)
     
     if(selected =='ADNI'):
-        webbrowser.open_new_tab(link1)
-      
+        html(my_html1)
 
     elif(selected =='Alzheimer\'s Disease'):
-        webbrowser.open_new_tab(link2)
+        html(my_html2)
+
     elif(selected =='Github Link'):
-          webbrowser.open_new_tab(link3)
+       html(my_html3)
+
     st.info('Before closing this make sure \'Home\' is selected')
 
 
