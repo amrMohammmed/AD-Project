@@ -137,6 +137,7 @@ def show(file):
 
 
 with header :
+    st.title('Welcome to our awesome project !')
     st.text('In this project we are looking forward to providing a simple tool\n'
             'for predicting the presence of Alzheimer’s disease.')
 
