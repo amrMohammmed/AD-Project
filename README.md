@@ -41,7 +41,7 @@ Using data provided by the [ADNI Project](http://adni.loni.usc.edu/), it is our 
 * 628 observations, 15 features (will likely use subset of features)
 * Labels: (CN, LMCI, AD)
 * Class Label distribution:
-![alt-text](https://github.com/amrMohammmed/AD-Project.git/Alzheimers-Prediction/blob/master/Dx.png?raw=true  Class Distribution Image")
+![alt-text](https://github.com/amrMohammmed/AD-Project/blob/5b1d1c0a4a8903b453d1f1bb04fa849d3466abaa/Dx.PNG?raw=true "Class Distribution Image")
 * Features include age, gender, years of education, race, genotype, cognitive test score (MMSE), and more
 
 * There are six error scenarios:
