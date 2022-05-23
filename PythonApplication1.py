@@ -41,6 +41,7 @@ st.markdown(
 
 link1='https://adni.loni.usc.edu/'
 link2='https://medlineplus.gov/genetics/condition/alzheimer-disease/'
+link3='https://github.com/amrMohammmed/AD-Project.git'
 
 with st.sidebar:
     st.title("AD Project")
@@ -54,7 +55,7 @@ with st.sidebar:
     elif(selected =='Alzheimer\'s Disease'):
         webbrowser.open_new_tab(link2)
     elif(selected =='Github Link'):
-          pass
+          webbrowser.open_new_tab(link3)
     st.info('Before closing this make sure \'Home\' is selected')
 
 
