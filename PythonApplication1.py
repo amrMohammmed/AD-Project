@@ -145,7 +145,7 @@ with datset:
     st.text('We found this data set at adni.loni.usc.edu,\n'
             'ADNI refers to Alzheimer’s Disease Neuroimaging Initiative.')
 
-    train_data=get_data(r'C:\Users\ESSAM.MOHAMMED\PycharmProjects\pythonProject5\train_data.csv')
+    train_data=get_data(r'E:\PythonApplication1\PythonApplication1\train_data.csv')
     st.write(train_data)
     display_col,selection_col = st.columns(2)
 
