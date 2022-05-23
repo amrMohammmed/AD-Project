@@ -60,7 +60,7 @@ Using data provided by the [ADNI Project](http://adni.loni.usc.edu/), it is our 
 ---
 ## Prediction Model
 
-### Multi-Class Prediction in Python (Jupyter Notebook)
+### Multi-Class Prediction in Python 
 * Since the data was processed with Scikit-Learn, it was easy to try several models using the library such as logistic regression.
 
 **Results:** Test Accuracy between (79-95)%
