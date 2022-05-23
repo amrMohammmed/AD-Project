@@ -3,10 +3,10 @@
 ![ADNI Picture](http://adni.loni.usc.edu/wp-content/themes/freshnews-dev-v2/images/ADNI_logo_vector.png "ADNI")
 
 # Table of Contents
-1. [Summary of Alzheimer's](https://github.com/grantgasser/Alzheimers-Prediction#summary-of-alzheimers-disease)
-2. [Project Motivation](https://github.com/grantgasser/Alzheimers-Prediction#project-motivation)
-3. [First Data Set](https://github.com/grantgasser/Alzheimers-Prediction#first-data-set-adni-q3)
-4. [Prediction Models, First Data Set](https://github.com/grantgasser/Alzheimers-Prediction#prediction-models)
+1. [Summary of Alzheimer's](https://github.com/amrMohammmed/AD-Project.git#summary-of-alzheimers-disease)
+2. [Project Motivation](https://github.com/amrMohammmed/AD-Project.git#project-motivation)
+3. [First Data Set](https://github.com/amrMohammmed/AD-Project.git#first-data-set-adni-q3)
+4. [Prediction Models, First Data Set](https://github.com/amrMohammmed/AD-Project.git#prediction-models)
 
 
 ## Summary of Alzheimer's Disease
@@ -41,7 +41,7 @@ Using data provided by the [ADNI Project](http://adni.loni.usc.edu/), it is our 
 * 628 observations, 15 features (will likely use subset of features)
 * Labels: (CN, LMCI, AD)
 * Class Label distribution:
-![alt-text](https://github.com/grantgasser/Alzheimers-Prediction/blob/master/class_distribution_q3.JPG?raw=true "Class Distribution Image")
+![alt-text](https://github.com/amrMohammmed/AD-Project.git/Alzheimers-Prediction/blob/master/class_distribution_q3.JPG?raw=true "Class Distribution Image")
 * Features include age, gender, years of education, race, genotype, cognitive test score (MMSE), and more
 
 * There are six error scenarios:
